@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Agent	smartcab/agent.py	/^from environment import Agent, Environment$/;"	i
+Agent	smartcab/environment.py	/^class Agent(object):$/;"	c
+DummyAgent	smartcab/environment.py	/^class DummyAgent(Agent):$/;"	c
+Environment	smartcab/agent.py	/^from environment import Agent, Environment$/;"	i
+Environment	smartcab/environment.py	/^class Environment(object):$/;"	c
+LearningAgent	smartcab/agent.py	/^class LearningAgent(Agent):$/;"	c
+OrderedDict	smartcab/environment.py	/^from collections import OrderedDict$/;"	i
+RoutePlanner	smartcab/agent.py	/^from planner import RoutePlanner$/;"	i
+RoutePlanner	smartcab/planner.py	/^class RoutePlanner(object):$/;"	c
+Simulator	smartcab/agent.py	/^from simulator import Simulator$/;"	i
+Simulator	smartcab/environment.py	/^from simulator import Simulator$/;"	i
+Simulator	smartcab/simulator.py	/^class Simulator(object):$/;"	c
+TrafficLight	smartcab/environment.py	/^class TrafficLight(object):$/;"	c
+__init__	smartcab/agent.py	/^    def __init__(self, env, learning=False, epsilon=1.0, alpha=0.5):$/;"	m	class:LearningAgent
+__init__	smartcab/environment.py	/^    def __init__(self, env):$/;"	m	class:Agent
+__init__	smartcab/environment.py	/^    def __init__(self, env):$/;"	m	class:DummyAgent
+__init__	smartcab/environment.py	/^    def __init__(self, state=None, period=None):$/;"	m	class:TrafficLight
+__init__	smartcab/environment.py	/^    def __init__(self, verbose=False, num_dummies=100, grid_size = (8, 6)):$/;"	m	class:Environment
+__init__	smartcab/planner.py	/^    def __init__(self, env, agent):$/;"	m	class:RoutePlanner
+__init__	smartcab/simulator.py	/^    def __init__(self, env, size=None, update_delay=2.0, display=True, log_metrics=False, optimized=False):$/;"	m	class:Simulator
+act	smartcab/environment.py	/^    def act(self, agent, action):$/;"	m	class:Environment
+ast	visuals.py	/^import ast$/;"	i
+build_state	smartcab/agent.py	/^    def build_state(self):$/;"	m	class:LearningAgent
+calculate_reliability	visuals.py	/^def calculate_reliability(data):$/;"	f
+calculate_safety	visuals.py	/^def calculate_safety(data):$/;"	f
+choose_action	smartcab/agent.py	/^    def choose_action(self, state):$/;"	m	class:LearningAgent
+color_choices	smartcab/environment.py	/^    color_choices = ['cyan', 'red', 'blue', 'green', 'orange', 'magenta', 'yellow']$/;"	v	class:DummyAgent
+colors	smartcab/simulator.py	/^    colors = {$/;"	v	class:Simulator
+compute_dist	smartcab/environment.py	/^    def compute_dist(self, a, b):$/;"	m	class:Environment
+createQ	smartcab/agent.py	/^    def createQ(self, state):$/;"	m	class:LearningAgent
+create_agent	smartcab/environment.py	/^    def create_agent(self, agent_class, *args, **kwargs):$/;"	m	class:Environment
+csv	smartcab/simulator.py	/^import csv$/;"	i
+disabled	smartcab/simulator.py	/^                print "Simulator.__init__(): Unable to import pygame; display disabled.\\n{}: {}".format(e.__class__.__name__, e)$/;"	i
+display	smartcab/simulator.py	/^                print "Simulator.__init__(): Unable to import pygame; display disabled.\\n{}: {}".format(e.__class__.__name__, e)$/;"	i
+get_deadline	smartcab/environment.py	/^    def get_deadline(self, agent):$/;"	m	class:Environment
+get_ipython	visuals.py	/^from IPython import get_ipython$/;"	i
+get_maxQ	smartcab/agent.py	/^    def get_maxQ(self, state):$/;"	m	class:LearningAgent
+get_next_waypoint	smartcab/environment.py	/^    def get_next_waypoint(self):$/;"	m	class:Agent
+get_state	smartcab/environment.py	/^    def get_state(self):$/;"	m	class:Agent
+hard_time_limit	smartcab/environment.py	/^    hard_time_limit = -100  # Set a hard time limit even if deadline is not enforced.$/;"	v	class:Environment
+importlib	smartcab/simulator.py	/^import importlib$/;"	i
+learn	smartcab/agent.py	/^    def learn(self, state, action, reward):$/;"	m	class:LearningAgent
+math	smartcab/agent.py	/^import math$/;"	i
+math	smartcab/environment.py	/^import math$/;"	i
+matplotlib	visuals.py	/^import matplotlib.pyplot as plt$/;"	i
+n	smartcab/simulator.py	/^                print "Simulator.__init__(): Unable to import pygame; display disabled.\\n{}: {}".format(e.__class__.__name__, e)$/;"	i
+next_waypoint	smartcab/planner.py	/^    def next_waypoint(self):$/;"	m	class:RoutePlanner
+np	visuals.py	/^import numpy as np$/;"	i
+os	smartcab/simulator.py	/^import os$/;"	i
+os	visuals.py	/^import os$/;"	i
+pause	smartcab/simulator.py	/^    def pause(self):$/;"	m	class:Simulator
+pd	visuals.py	/^import pandas as pd$/;"	i
+plot_trials	visuals.py	/^def plot_trials(csv):$/;"	f
+plt	visuals.py	/^import matplotlib.pyplot as plt$/;"	i
+pygame	smartcab/simulator.py	/^                print "Simulator.__init__(): Unable to import pygame; display disabled.\\n{}: {}".format(e.__class__.__name__, e)$/;"	i
+random	smartcab/agent.py	/^import random$/;"	i
+random	smartcab/environment.py	/^import random$/;"	i
+random	smartcab/planner.py	/^import random$/;"	i
+random	smartcab/simulator.py	/^import random$/;"	i
+render	smartcab/simulator.py	/^    def render(self, trial, testing=False):$/;"	m	class:Simulator
+render_text	smartcab/simulator.py	/^    def render_text(self, trial, testing=False):$/;"	m	class:Simulator
+reset	smartcab/agent.py	/^    def reset(self, destination=None, testing=False):$/;"	m	class:LearningAgent
+reset	smartcab/environment.py	/^    def reset(self):$/;"	m	class:TrafficLight
+reset	smartcab/environment.py	/^    def reset(self, destination=None, testing=False):$/;"	m	class:Agent
+reset	smartcab/environment.py	/^    def reset(self, testing=False):$/;"	m	class:Environment
+route_to	smartcab/planner.py	/^    def route_to(self, destination=None):$/;"	m	class:RoutePlanner
+run	smartcab/agent.py	/^def run():$/;"	f
+run	smartcab/simulator.py	/^    def run(self, tolerance=0.05, n_test=0):$/;"	m	class:Simulator
+sense	smartcab/environment.py	/^    def sense(self, agent):$/;"	m	class:Environment
+set_primary_agent	smartcab/environment.py	/^    def set_primary_agent(self, agent, enforce_deadline=False):$/;"	m	class:Environment
+step	smartcab/environment.py	/^    def step(self):$/;"	m	class:Environment
+time	smartcab/environment.py	/^import time$/;"	i
+time	smartcab/simulator.py	/^import time$/;"	i
+update	smartcab/agent.py	/^    def update(self):$/;"	m	class:LearningAgent
+update	smartcab/environment.py	/^    def update(self):$/;"	m	class:Agent
+update	smartcab/environment.py	/^    def update(self):$/;"	m	class:DummyAgent
+update	smartcab/environment.py	/^    def update(self, t):$/;"	m	class:TrafficLight
+valid_actions	smartcab/environment.py	/^    valid_actions = [None, 'forward', 'left', 'right']$/;"	v	class:Environment
+valid_headings	smartcab/environment.py	/^    valid_headings = [(1, 0), (0, -1), (-1, 0), (0, 1)]  # E, N, W, S$/;"	v	class:Environment
+valid_inputs	smartcab/environment.py	/^    valid_inputs = {'light': TrafficLight.valid_states, 'oncoming': valid_actions, 'left': valid_actions, 'right': valid_actions}$/;"	v	class:Environment
+valid_states	smartcab/environment.py	/^    valid_states = [True, False]  # True = NS open; False = EW open$/;"	v	class:TrafficLight
+warnings	smartcab/simulator.py	/^import warnings$/;"	i
+warnings	visuals.py	/^import warnings$/;"	i
