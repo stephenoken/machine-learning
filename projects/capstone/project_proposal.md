@@ -9,7 +9,7 @@ Stephen O'Kennedy
 
 Since it’s inception the internet has allowed people from most parts of the world to freely communicate, debate, and collaborate with each other over a wide range of topics and projects. Platforms like Github, Hackernews, Twitter, Wikipedia, etc. form the foundations for which these interactions can take place. Many of these communities have standards and rules in place to facilitate conversations, and to prevent these communities from being hijacked, or destroyed by toxic behaviour. It is becoming increasingly harder to regulate and enforce these standards. In fact  Facebook are currently hiring more and more moderators to sift through questionable content [1].
 
-[Conversation AI](https://conversationai.github.io/) are working to provide tools to help improve online conversation[2][2]. One area that they’re focusing on is the study of negative online behaviours, like toxic comments[2][2]. As their Kaggle page states, the current models in use for detecting toxic comments still make errors, and they don’t allow users to be able to identify the types of toxicity they’re interested in finding. For example some platforms may be fine with comments that contain profanities.
+[Conversation AI](https://conversationai.github.io/) are working to provide tools to help improve online conversation[2]. One area that they’re focusing on is the study of negative online behaviours, like toxic comments[2]. As their Kaggle page states, the current models in use for detecting toxic comments still make errors, and they don’t allow users to be able to identify the types of toxicity they’re interested in finding. For example some platforms may be fine with comments that contain profanities.
 
 ### Problem Statement
 
@@ -32,10 +32,10 @@ The `comment_text` column is comment that we want to feed into our classifier, a
 
 ### Solution Statement
 
-The solution will involved the development of deep learning algorithm that uses Keras with TensorFlow being used as the backend. Our aim is to use a multi-class CNN to process the content of the comments and out put a ROC AUC score [4][4]. Finally, predictions will be made on the test data set and will be evaluated on Kaggle.
+The solution will involved the development of deep learning algorithm that uses Keras with TensorFlow being used as the backend. Our aim is to use a multi-class CNN to process the content of the comments and out put a ROC AUC score [4]. Finally, predictions will be made on the test data set and will be evaluated on Kaggle.
 
 ### Benchmark Model
-The benchmark score we’ll use to compare our model against will  be `0.982900`. This score was is in the 50th percentile of the public leaderboards[5][5], and was calculated using ROC AUC metric [4][4].
+The benchmark score we’ll use to compare our model against will  be `0.982900`. This score was is in the 50th percentile of the public leaderboards[5][5], and was calculated using ROC AUC metric [4].
 
 ### Evaluation Metrics
 
